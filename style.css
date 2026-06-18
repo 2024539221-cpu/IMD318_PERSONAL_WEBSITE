@@ -1,0 +1,220 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f5f0ff;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    background-image:url("images/header.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:80px 20px;
+}
+
+header h1,
+header p{
+    text-shadow:2px 2px 5px black;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:4px solid white;
+    object-fit:cover;
+}
+
+nav{
+    background:#ee51bf;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    background:white;
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#ec9bd1;
+    margin-bottom:10px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+footer{
+    text-align:center;
+    background:#e491be;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+#about {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#about h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#about p {
+    text-align: justify;
+    line-height: 1.8;
+    color: #555;
+}
+#education,
+#skills {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#education h2,
+#skills h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.edu-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #2c3e50;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.edu-item h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.edu-item p {
+    margin: 5px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.skill-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2c3e50;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+#experience {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#experience h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.exp-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #2c3e50;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.exp-item h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.exp-item p {
+    margin: 8px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+#hobbies {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#hobbies h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.hobby-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2c3e50;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+#contact {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2c3e50;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    color: #555;
+}
