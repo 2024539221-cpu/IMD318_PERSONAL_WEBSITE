@@ -74,6 +74,7 @@ footer{
     padding:15px;
     margin-top:20px;
 }
+
 #about {
     max-width: 900px;
     margin: 50px auto;
@@ -217,4 +218,11 @@ footer{
     background-color: #f8f9fa;
     border-radius: 8px;
     color: #555;
+}
+
+#about video {
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
